@@ -4,13 +4,15 @@
   - As a notable feature of the dataset, one of the annotated labels is "glass", such as windows, walls, and automatic doors. Glass is transparent in color images but opaque in LWIR images.
   - According to our [paper](#paper), you can detect transparent glass using coaxial RGB and LWIR images.
 
-# Dataset
+# Images and annotations
   - The images was captured with a coaxial camera, FIRplus, manufactured by the ViewPlus Corporation, Japan.
   - The dataset contains 17,023 image pairs, which is divided into 8,050 pairs of learning data, 8,373 pairs of evaluation data, and 600 pairs of verification data.
   - Nine labels were annotated: glass, pedestrian, road, aisle, tree, bicycle, car, devaluation, and curb.
   - The images were captured in eight lighting condition: daytime (clear sky, cloudy, rainy, snowy, indoor), evening, and night.
 
-  - ![Image example](https://github.com/mil-tokyo/coaxials/blob/master/ImageExample.jpg)
+  - Examples of image# Images and annotations
+
+![Image example](https://github.com/mil-tokyo/coaxials/blob/master/ImageExample.jpg)
 
 # Download dataset
   - Coaxials dataset is available on [google drive](https://drive.google.com/file/d/10VIdfmV08nFXPOn2IqJrB1Obo4GKjjPx/view?usp=sharing). The file size is about 3 GB.
